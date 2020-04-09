@@ -3,7 +3,6 @@ layout: post
 title:  "You grew up in a religious family"
 author: sal
 categories: [ reddit, wp]
-tags: [ wp, reddit]
 image: assets/images/2.jpg
 rating: 4.5
 ---
