@@ -28,6 +28,16 @@ Differ in configuration (stereoisomers): Trans-Cis Giống nhau về công thứ
 
 Conformation != configuration
 
-8 ch  Living thing 
+8 charistics of  Living thing 
 
-first law of thermo
+first law of thermodynamic
+
+second law of thermodynamic
+
+![image-20200410144840038](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200410144840038.png)
+
+Enthalpy is the total energy of the system.
+
+![image-20200410145645268](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200410145645268.png)
+
+![image-20200410150128968](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200410150128968.png)
