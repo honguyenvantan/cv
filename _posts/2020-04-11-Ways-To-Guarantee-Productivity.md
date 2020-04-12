@@ -3,7 +3,7 @@ layout: post
 title:  "7 Ways To Guarantee Productivity"
 author: sal
 categories: [ medium]
-image: assets/images/18.jfif
+image: assets/images/18.png
 
 ---
 
