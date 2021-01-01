@@ -1,6 +1,0 @@
-* [Creature & Machine](cm.md)
-* [bmbrdg](bmbrdg.md)
-* [Erin Jae](erinjae.md)
-* [Blueyes](blueyes.md)
-* [On The Run](ontherun.md)
-* [Lancul](lancul.md)
