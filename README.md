@@ -1,170 +1,71 @@
-Zolan - Modern & Minimal Theme for Jekyll
-======
-Zolan is a minimal blog theme for Jekyll.
+# jekyll-theme-persephone
 
-* * *
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-persephone.svg)](https://rubygems.org/gems/jekyll-theme-persephone)
 
-Table of Contents
------------------
-*   [Features](#features)
-*   [Demo](#demo)
-*   [Deployment](#deployment)
-*   [Posts](#posts)
-*   [Disqus Comments](#DisqusComments)
-*   [Instagram](#instagram)
-*   [Google Analytics](#GoogleAnalytics)
-*   [Update favicon](#UpdateFavicon)
-*   [Credits](#Credits)
-*   [Support](#Support)
+Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
-* * *
+To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
-### Features
+[DEMO with full functions.](https://erl.im)
 
-* 100% responsive and clean theme
+[A simple blog demo](https://en.erl.im)
 
-* Optimized for mobile devices
+## Demo
 
-* Minimal design
+| ![home layout](/screenshots/home.png) | ![blog layout](/screenshots/blog.png) |
+| -- | -- |
+| `layout: home` [Demo](https://en.erl.im/blog/) | `layout: blog` [Demo](https://erl.im/blog) |
+| ![post layout](/screenshots/post.png) | ![page layout](/screenshots/page.png) |
+| `layout: post` [Demo](https://erl.im/blog/the-jekyll-comment-system) | `layout: page` [Demo](https://erl.im/about) |
+| ![archive layout](/screenshots/archive.png)      | ![slides layout](/screenshots/slides.png) |
+| `layout: archive` [Demo](https://erl.im/archive) | <strong style="color: red">*</strong> `layout: slides` [Demo](https://erl.im) |
+| ![book layout](/screenshots/book.png) | ![chapter layout](/screenshots/chapter.png) |
+| <strong style="color: red">*</strong> `layout: book` [Demo](https://erl.im/corner) | <strong style="color: red">*</strong> `layout: chapter` [Demo](https://erl.im/corner/1) |
 
-* Valid HTML5 code
+The layout with red * relied on a jekyll books generator plugin: [`jekyll-books`](https://github.com/erlzhang/jekyll-books)
 
-* Post sharing
+## Installation
 
-* Subscription form
+Add this line to your Jekyll site's `Gemfile`:
 
-* Supports Disqus Comments
+```ruby
+gem "jekyll-theme-persephone"
+```
 
-* Instagram Feed
+And add this line to your Jekyll site's `_config.yml`:
 
-* Ionicons Icons
+```yaml
+theme: jekyll-theme-persephone
+```
 
-* Google Fonts
+And then execute:
 
+    $ bundle
 
-* * *
+Or install it yourself as:
 
-### Demo
+    $ gem install jekyll-theme-persephone
 
-Check the theme in action [Demo](https://zolan-jekyll.netlify.app/)
+## Usage
 
-![Main page preview](https://github.com/artemsheludko/zolan/blob/master/images/zolan-main-page.png?raw=true)
+- [Settings](/_config.yml)
+- [Layouts](/docs/layouts.md)
+- [Comments](/docs/comments.md)
+- [`jekyll-books` generator](/docs/books.md)
 
-The post page would look like this:
+## Contributing
 
-![Post page preview](https://github.com/artemsheludko/zolan/blob/master/images/zolan-post.png?raw=true)
+Bug reports and pull requests are welcome on GitHub at https://github.com/erlzhang/jekyll-theme-persephone. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-* * *
+## Development
 
-### Deployment
+To set up your environment to develop this theme, run `bundle install`.
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-persephone.gemspec` accordingly.
 
-* * *
+## License
 
-### Posts
-
-To create a new post, you can create a new markdown file inside the \_posts directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
-
-      ---
-      layout: post
-      title: Time to give gifts to everyone
-      date: 2018-08-23 16:04:00 +0300
-      image: 03.jpg
-      tags: Life
-      ---
-
-
-You can set the tags and the post image.
-
-Add post images to **/images/** directory.
-
-For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
-
-* * *
-
-### Disqus Comments
-
-Zolan Theme comes with Disqus comments enabled.
-
-Open `_data/settings.yml` file, and change the `mr-brown` value on line 26 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
-
-      Comment Section (Disqus)
-      disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
-
-
-That’s all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide).
-
-And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
-
-* * *
-
-### Instagram
-
-The Instagram feed is working using [Instafeed.js](http://instafeedjs.com/) to show the photos.
-
-First, you will need to get your account `userId` and `accessToken` from the following URLs:
-
-*   userId: [http://codeofaninja.com/tools/find-instagram-user-id/](http://codeofaninja.com/tools/find-instagram-user-id/)
-*   accessToken: [instagram.pixelunion.net](http://instagram.pixelunion.net/)
-
-Second, open the `js/common.js` file and replace the `userId` and `accessToken` values.
-
-    var instagramFeed = new Instafeed({
-          get: 'user',
-          limit: 6,
-          resolution: 'standard_resolution',
-          userId: '8987997106',
-          accessToken: '8987997106.924f677.8555ecbd52584f41b9b22ec1a16dafb9',
-          template: ''
-    });
-
-
-Third, open the `_data/settings.yml` file and replace the `instafeed: false` on `instafeed: true` value.
-
-    # Instagram Feed
-    instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
-
-
-* * *
-
-### Google Analytics
-
-To integrate Google Analytics, open `_data/settings.yml`, and add your Google Analytics identifier.
-
-    # Google Analytics
-    google-analytics: # Add your identifier. For example UA-99631805-1
-
-
-* * *
-
-### Update favicon
-
-You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
-
-* * *
-
-### Credits
-
-I have used the following scripts, fonts or other files as listed.
-
-*   [Google Fonts](https://fonts.google.com/specimen/Nunito) (Roboto, Sans Serif).
-*   [Ionicons Icons](https://ionicons.com/)
-*   [FitVids.js](http://fitvidsjs.com/)
-*   [Medium’s Image Zoom](https://github.com/fat/zoom.js)
-*   [Instafeed.js](http://instafeedjs.com/)
-*   [jQuery.com](https://jquery.com/)
-*   Preview Images form [unsplash.com](https://unsplash.com/), [pexels.com](https://www.pexels.com/)
-
-* * *
-### License
-
-Mit License
-
-* * *
-
-### Support
-<p>If you like the themes that I create you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.
-<p align="center"><b>Thank you for your support ❤️</b></p>
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

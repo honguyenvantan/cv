@@ -1,54 +1,24 @@
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <!-- begin header -->
-      <header class="header">
-
-        <div class="logo">
-          <a class="logo__link" href="{{site.baseurl}}/">
-          {%if site.data.settings.logo %}
-            <img class="logo__image" src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
-          {% else %}
-            {{ site.data.settings.title }}
-          {% endif %}
-          </a>
-        </div>
-
-        <nav class="main-nav">
-
-          <div class="main-nav__box">
-            <div class="nav-icon__close">
-              <i class="ion ion-ios-close-circle-outline"></i>
-            </div>
-
-            <div class="nav__title">Menu</div>
-
-            <ul class="nav__list list-reset">
-              <li class="nav__item">
-                <a href="{{site.baseurl}}/" class="nav__link">Home</a>
-              </li>
-              {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' %}
-              {% if page.title %}
-              <li class="nav__item">
-                <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
-              </li>
-              {% endif %}
-                {% endunless %}
-              {% endfor %}
-            </ul>
-
-          </div>
-        </nav>
-
-        <div class="nav-buttons">
-          <i class="nav__icon nav__icon-menu ion ion-md-menu" aria-label="Menu Icon"></i>
-          <i class="nav__icon nav__icon-search ion ion-md-search" aria-label="Search Icon"></i>
-        </div>
-
-        <div class="header__overlay"></div>
-      </header>
-      <!-- end header -->
-    </div>
-  </div>
+<a href="{{ "/" | relative_url }}" class="logo">
+  {%- if site.logo -%}
+  <img src="{{ site.logo | img_url_prefix }}" class="logo_img">
+  {%- endif -%}
+  <h1>{{ site.title }}</h1>
+</a>
+{%- if "slides,chapter,book" contains page.layout and site.theme_setting.archive_page -%}
+{%- assign archive_page = site.pages | where: "path", site.theme_setting.archive_page | first -%}
+<a href="{{ archive_page.url | relative_url }}" class="sidebar__toggler">
+  <span class="sidebar__toggler_top"></span>
+  <span class="sidebar__toggler_middle"></span>
+  <span class="sidebar__toggler_bottom"></span>
+</a>
+{%- endif %}
+{%- if page.layout == "chapter" -%}
+<div class="book-header" role="navigation">
+    <a href="#" id="summaryToggler" class="summary__toggler">
+      {% include icons/ellipsis.html%}
+    </a>
+  <h1>
+    {{ page.title }} - {{ page.book.title }}
+  </h1>
 </div>
+{%- endif -%}
