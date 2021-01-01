@@ -1,0 +1,8 @@
+# Augmented Reality AI Receptionist
+## 2019 - 2020
+
+I worked on an industry exchange project with IBM to build at AR Receptionist using IBM Watson technology. As the Team Lead of a three person team, I was responsible for managing our workflow, and ensuring a smooth team dynamic, as well as communicating with our supervisor at IBM. We built a custom pipeline to build a cross platform mobile application, including Unity Game Engine, IBM Cloud, and Amazon lambda webhooks. I became familiar with C# programming in Unity, and the Unity AR Foundation package.
+
+This project encountered a number of tricky challenges: AR technologies are still relatively new and untested, and we were working with features of the Unity AR Foundation package as they were released, which meant we had very little documentation or experience to rely on. We were connecting many moving parts together in a way that, as far as we were aware, had never been done before, to create an avatar receptionist that appeared in "world space" in the camera of a mobile device and spoke to the user of the device, using voice recognition and text to speech to create the feeling of a "conversation". This involved extensive user testing and design of the conversations themseleves, which was an interesting insight into the problems and challenges of designing human-AI interaction.
+
+Ultimately, we were able to design an avatar that could engage in basic conversations for different settings, such as checking a patient in for an appointment at a doctor's surgery, or finding a library book in a library. There was a lot more work that we could have done, given more time, to create a more natural user experience, and hopefully student groups might build on our work in future.
