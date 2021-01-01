@@ -1,73 +1,77 @@
-title: My journey
-description: Just simple to save everything which be neccessary for me..
-email: honguyenvantan@gmail.com
-author: Tan Ho #  Default is your site title.
 
-# # Your social accounts.
-social:
-#   github: github_username
-#   twitter: twitter_username
-  facebook: honguyenvantan
-  linkedin: www.linkedin.com/in/honguyenvantan
+title: My journey 
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Just simple to save everything which be neccessary for me...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://honguyenvantan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  honguyenvantan
 
-# # Theme Settings
+destination: "./docs"
 
-# # Your site's logo. Will be shown on the left top of your page.
-logo: /img/logo.svg
-# # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
-img_prefix: https://your-img-cdn.com
-# # The RSS link of your blog.
+# Build settings
+#remote_theme: erlzhang/jekyll-theme-persephone
+theme: jekyll-theme-persephone
+plugins:
+  - jekyll-books
+  - jekyll-feed
+
+
+# Theme Settings
+logo: /img/logo.png
 rss: "/feed.xml"
-
-# # The followings are settings for displays of your blog.
+theme: 'jekyll-theme-persephone'
 theme_setting:
-  # The slides count in the slides layout. Default is 4.
-  slides_count: 5
-  # The ← back URL on the top of your post page. Default is your site's home page.
   blog_page: "blog/index.md"
-  # The URL on your name on the bottom of your post and page. Default is your site's home page.
   about_page: "about.md"
-  #  The URL of the menu icon(which has three black lines). Will be shown on the slides/book/chapter layouts It won't be shown if blank.
   archive_page: "archive.md"
-#   # The nav links on the top right of home/page/post/blog layout. You can set a local page(by setting a layout's path) or and external link ( both title and url are required) here.
-   nav_pages:
-     - "about.md"
-     -
-       title: "External Link Title"
-       url: "https://your-external-link.com"
-   # Every default value in the following settings is false. You can set them globally here or separately in a single post/page/chapter.
-   code: true # Code highlight.
-   math: true # Mathjax
-   mermaid: true # Mermaid
-   #  Locales of this theme.
-   lang:
-     category_all: All # The first tag in the categories bar on the blog layout page. By clicking it all of your posts will be shown. Default is 'All'.
-     blog_title: Blog # The text of ← back url on the top of the post layout.  Default is 'Home'.
-     # The locales of the comment controls.
-     comment:
-       user: "nickname"
-       email: "mailbox"
-       url: "link"
-       message: "say something..."
-       reply: "Reply"
-
- head_code: |
-   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
-
- # The settings of comments.
- comment:
-   # You should set it to enable comment
-   enabled: true
-   # Your comment provider
-   provider: disqus # static/disqus
-   # If provider == disqus
-   disqus:
-     name: website_name
-   # Or provider == static
-   static:
-     # Your static comment url.
-     postUrl:  https://api.staticman.net/v2/connect/GITHUB-USERNAME/GITHUB-REPOSITORY
- # The settings of local smileys used in static comments. The jekyll-smiley plugin is required.
- smiley:
-   enabled: true
-   dir: img/smileys
+  nav_pages:
+    - "about.md"
+    - "archive.md"
+  lang:
+    category_all: "全部"
+    blog_title: "博客"
+    comment:
+      user: "nickname"
+      email: "mailbox"
+      url: "link"
+      message: "say something..."
+      reply: "reply"
+comment:
+  enabled: true
+  provider: "static"
+  static:
+    postUrl: "https://jekyll-comment-server.herokuapp.com/post-comment"
+    # postUrl: "https://g4vdkkahpjie.leanapp.cn/post-comment"
+smiley:
+  enabled: true
+head_code: |
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?3176e6e675ed7773f831e38c7a57880f";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key heråe will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
