@@ -1,10 +1,12 @@
-```yaml
-title: Luyện Thể Thuật (Taijutsu) để đạt IELTS 9.0
+---
 type: post
-seotitle: SparroX - Best Minimal Jeykll Theme Documentation and Download
-author: Mighil
-description: Read the documenation for SparrowX minimal and clean Jekll theme. 
-```
+title: Luyện Thể Thuật (Taijutsu) để đạt IELTS 9.0
+author:
+description: Learn how to apply a new method in IELTS.
+url: /thu-thuat-ielts/
+tags:
+  - ielst
+---
 
 
 
