@@ -1,177 +1,37 @@
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/Mighil)
+# Pudhina
+A simple, minimal [Jekyll](jekyllrb.com) theme for a personal web page and blog, focusing on white space and readability
 
-# SparrowX - Jekyll Netlify CMS Boilerplate
+[Click here](https://knhash.github.io/Pudhina/) to see the theme in action. Note that the download PDF button redirects to 404 due to lack of the file. This is by design, to demonstrate the Glitch effect therein.
 
-A clean minimal Jekyll theme for SEO-focused writers. The theme loads fast and it's Netlify CMS-ready. SparrowX is a remix of sparrow by [lingxz](https://github.com/lingxz/sparrow).
+## Screenshots
 
-[Live Demo](https://sparrowx.mighil.com/)
+![Home](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/home.png?raw=true "Home") 
+![Blog](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/blog.png?raw=true "Blog") 
+![Resume](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/resume.png?raw=true "Resume") 
+![Post](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/post.png?raw=true "Post") 
+![404](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/404.png?raw=true "404") 
 
-- [Features](#features)
-- [Install](#install)
-- [Up and running with Netlify CMS](#up-and-running-with-netlify-cms)
-    - [General configuration](#general-configuration)
-    - [Disqus](#disqus)
-    - [Google analytics](#google-analytics)
-    - [Collections](#collections)
-    - [Pagination](#pagination)
-    - [Navigation](#navigation)
-    - [Front matter defaults](#front-matter-defaults)
-    - [Other](#other)
-- [Credits](#credits)
+## Features
+- Simple, minimal and clean
+- Blog posts categorised
+- Responsive
+- Syntax Highlighter (using [highlight.js](https://highlightjs.org/)).
+- Font-Awesome Icons.
+- Glitchy 404 page
 
-## Screenshot 
+## How to use it
+- Start by cloning the repository, then check the `_config.yml` file and change it accordingly. Note that the `title` property is what will be displayed as logo.
+- Execute `jekyll serve` and head to [localhost:4000](http://127.0.0.1:4000) to see the results locally.
 
-![](screenshot.png)
-
-## Website Speed Test 
-
-![](pagespeed.png)
-
-## Original Sparrow Features
-
-- Fully compatible with Github Pages
-- Configurable and responsive multi layer menu, adapted from [slimmenu](https://github.com/adnantopal/slimmenu)
-- Disqus integration
-- [Font Awesome icons](http://fontawesome.io/) included
-- Google analytics
-- Social sharing using [rrssb](https://www.rrssb.ml/)
-- 404 page included
-- Atom feed generated with [jekyll-feed](https://github.com/jekyll/jekyll-feed)
-- Pagination enabled for blog using [jekyll-paginate](https://github.com/jekyll/jekyll-paginate)
-- Basic SEO with Facebook Open Graph tags and Twitter cards
-
-## SparrowX Features
-
--  Fully compatible with Netlify CMS (one-click setup).
--  Added new custom variables like updated, headerimage, feature-img, sitemap and tag.
--  The theme renders system font-stack.
--  Compressed JS.
--  Improved load time and reduced file requests.
--  _redirects feature
-
-## Install
-
-Just fork this repo and replace the posts with your own. Also rename the sample poetry collection to replace it with your own collection, or just delete it if you don't need to use collections. The example is poetry, but you can easily revamp this into essays, short stories, portfolio, or whatever your creative work is. 
-
-
-## Up and running with Netlify CMS
-
-[Click here](https://sparrowx.mighil.com/netlify-cms-jekyll-setup) to read the documentation for Netlify CMS.
-
-For customization, see below. 
-
-### General configuration
-
-Customize these values in the `_config.yml` file: 
-
-```yaml
-title                    : "SparrowX"
-description              : "A clean minimal Jekyll theme for SEO-focused writers."
-favicon                  : "/assets/images/image.png" # You can use base64 encoded images.
-url                      : "https://sparrowx.m1q.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog" leave blank if no subpath
-
-# Site Author
-author:
-  name                   : "Mighil" # appears in the footer and atom feed
-```
-
-
-### Disqus
-
-To activate Disqus, fill in your disqus shortname: 
-
-```yaml
-comments                 : true # set it to false to disable comments
-disqus:
-  shortname              : your_shortname
-```
-
-### Google analytics
-
-Enable google analytics by filling in your tracking ID: 
-
-```yaml
-analytics:
-  google:
-    tracking_id          : # add your google tracking id here
-```
-
-### Collections
-
-If you are using collections, be sure to replace this with your collection name: 
-
-```yaml
-collections:
-  poetry:
-    output: true
-    permalink: /:collection/:title/
-```
-
-### Pagination
-
-Currently, pagination is set to a the blog page. Unfortunately Jekyll does not yet support pagination on multiple pages. 
-
-If you want to paginate on a different page, simply change the `paginate_path` value in the config file and create the relevant page. 
-
-```yaml
-paginate: 5 # amount of posts to show
-paginate_path: "/blog/page:num/"
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-```
-
-### Navigation
-
-You can change the navigation links in `_data/navigation.yml`.
-
-### Front matter defaults
-
-At the bottom of the config file, you can also set [front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) so that you don't have to repeat the same front matter for every post. This is an example: 
-
-```yaml
-# Front matter defaults
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      comments: false
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-  # _poetry
-  - scope:
-      path: ""
-      type: poetry
-    values:
-      layout: post
-      share: false
-```
-
-### How tags work
-
-You should create specific .md files within ```/tag/``` before using the variable.
-
-### Other
-
-To enhance SEO, you can add your twitter username to `_config.yml`. 
-
-You can also add an image path for the `og_image` value in the config file, for a default open graph sharing image. This value can be overridden in individual posts by using **headerimage** variable. 
-
-Your default image Netlify CMS uploads will go to /images/.
-
-For the various config options see the [sample config file for the demo site](https://github.com/mighildotcom/sparrowx/blob/master/_config.yml)
-
-The color schemes and fonts can also be customized through scss, by editing the relevant variable in `_variables.scss`. 
+## Customization
+- Change main picture and icon in `/assets/img/pudhina`.  
+- Change main details regarding site in `_config.yml`.
+- Configure `index.md` for the main page, `blog.md` for Blog listing and `resume.md` for Resume page.
+- CSS properties can be found in `/assets/css/main.css`.
+- New posts to be created in the `/_posts/` directory, follow the naming convention used in samples. Front-matter requires title, subtitle, categories and date.
 
 ## Credits
+Inspired by the theme [Daktilo](https://github.com/kronik3r/daktilo)
 
-- Base theme sparrow by [lingxz](https://github.com/lingxz/sparrow)
-- Icon made by [Freepik](https://www.freepik.com/) from www.flaticon.com 
+## License
+The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
