@@ -1,6 +1,6 @@
 ---
 layout: page
-title: HOPE YOU HAVE A GOOD DAY!
+title: TITANOSAURUS
 subtitle: Writing and reading
 sitemap:
   priority: 0.9
