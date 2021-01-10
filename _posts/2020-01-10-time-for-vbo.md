@@ -10,7 +10,7 @@ For a long time since I was in a VBO team, trained for many biology competitions
 
 *******************************
 
-One day of October, his class had the first training for the Flash-mod competition of my highschool. Not too much enthused about what was going on, he was thinking, think about the last-week-selection-team-for-VBO exam. If he failed, maybe he would stop to follow many other competitions, and was back to a normal student, must to work really hard for the entrance exam to the university. That was not what he wants, but some kinds of that awful mind appear in his head, and he was already enough his nerve preparation to face with that. Some books in chemistry or maths showed us to know that.
+One day in October, his class had the first training for the Flash-mod competition of my highschool. Not too much enthused about what was going on, he was thinking, think about the last-week-selection-team-for-VBO exam. If he failed, maybe he would stop to follow many other competitions, and was back to a normal student, must to work really hard for the entrance exam to the university. That was not what he wants, but some kinds of that awful mind appear in his head, and he was already enough his nerve preparation to face with that. Some books in chemistry or maths showed us to know that.
 
 Rest time. A phone call. What???
 
