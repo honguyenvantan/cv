@@ -1,14 +1,18 @@
 ---
 layout: page
-title: Résumé
-subtitle: An awesome person
+title: Resume
+subtitle: HNVT
 ---
 
 <span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
 <br>
 
 ### SKILLS
-``` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed porttitor mi. In bibendum tortor nec massa finibus, id ultricies urna pulvinar. Sed congue blandit est non sagittis. In eget lobortis ipsum. Quisque id nisl nisl. Donec nec dapibus diam. Donec vel euismod nisi.  ```  
+
+- Read, analyse and summarize **scientific papers**.
+- Working with **word**, **powerpoint**, **excel**, **google docs**...
+- Using **Zotero** for writing and collecting essays.
+- Working in biology lab with **practical skills**.
 
 ### PROJECTS
 **Title** - Description - Place <span style="float: right; ">Time span</span>  
@@ -22,12 +26,12 @@ Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse pl
 
 ### EDUCATION
 
-Institute <span style="float: right; ">Duration</span>  
-**Course**  
-Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  
- 
-Institute <span style="float: right; ">Duration</span>  
-**Course**  
+University of Science <span style="float: right; ">2019 - 2023</span>  
+**Biotechnology**  
+My major in biotechnology, which is one of the emphasized faculty in my Uni. After finish the course, students have full of knowledge and skills to 
+
+Le Thanh Tong High school for the Gifted <span style="float: right; ">2016 - 2019</span>  
+**The special biology class**  
 Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  
 
 Institute <span style="float: right; ">Duration</span>  
@@ -40,14 +44,7 @@ Title - **Comapany** <span style="float: right; ">Duration</span>
 _Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
 Technologies used  
 
- 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
-
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
+....
 
 
 ### RECOGNITION & INTERESTS

@@ -7,6 +7,8 @@ categories: ["general"]
 ---
 Nice to comeback to write some interesting things about my life. Not only for saving my memories, but I also used this one for training my writing ability. I quite noob in writing in both English and Vietnamse :), but I will try my best to keep going to writing at least 3 times a week.
 
+Because it haves errors in font type when I write Vietnamse word, so I will try to restrist to write in Vietnamse.
+
 This below content will show me how to use this theme from Pubhina in an effective way:
 
 - You’ll find this post in your `_posts` directory. 
