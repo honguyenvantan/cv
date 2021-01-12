@@ -2,8 +2,8 @@
 layout: page
 title:  "“Bacon”  by Mariam Nassiri (Duke University)"
 subtitle: "Series: 50 Successful Ivy League Application Essays"
-date:   2020-01-09 21:21:21 +0530
-categories: ["writing"]
+date:   2020-01-12 21:21:21 +0530
+categories: ["reading"]
 ---
 
 Summarize by mysefl: 
