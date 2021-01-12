@@ -6,11 +6,22 @@ date:   2020-01-12 21:21:21 +0530
 categories: ["reading"]
 ---
 
-Summarize by mysefl: 
+## Summarize by myself
+
+
 
 *******************************
 
-THE ALARM CLOCK IS, TO MANY high school students, a wailing monstrosity whose purpose is to torture all who are sleep-deprived. Those who believe this are misguided, and are simply viewing the situation from a twisted perspective. For when these imprudent early-risers blearily rub their eyes each morning, and search in vain for whatever is making that earsplitting noise, they are, without a doubt, annoyed. Why? 
+## Vocab
+
+- **monstrosity**: something that is very ugly and usually large: *That new office building is a real monstrosity.*
+- **deprive**: lacking something that is needed to live the way most people live: *He took pictures in deprived areas of the city.* --> sleep-deprived, deprived childhood, ...
+- **torture**: Torture is also the act of injuring someone or making someone suffer in an effort to force that person to do or say what you want to be done or said.
+- 
+
+*******************************
+
+THE ALARM CLOCK IS, TO MANY high school students, a wailing **monstrosity** whose purpose is to **torture** all who are **sleep-deprived**. Those who believe this are misguided, and are simply viewing the situation from a twisted perspective. For when these imprudent early-risers blearily rub their eyes each morning, and search in vain for whatever is making that earsplitting noise, they are, without a doubt, annoyed. Why? 
 
 It isn’t because the only thing they desire is to sleep a few extra hours, as many would presume. no, these kids are groggy and irritable because they are waking up to what they think will be another horribly boring day of school. If one of these foolish Sallys or Joes were, say, sleeping comfortably on a Saturday morning, I could certainly see something different happening. A beautiful breakfast of tantalizing vittles—eggs, hash browns, and the like—would be ready and waiting for them on their kitchen tables. But the scrumptious delight to outshine them all would be a slab of bacon, piled proudly for the taking. It would be that wafting, wondrous bacon smell that would draw dear, sweet Sally abruptly from her slumber—long before an alarm clock has the chance to pierce the air. 
 
