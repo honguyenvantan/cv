@@ -14,4 +14,5 @@ One day in October, his class had the first training for the Flash-mod competiti
 
 Rest time. A phone call. What???
 
-He did it, just only him get into national team, with highest mark, above too many 
+He did it, just only him get into national team, with highest mark, above too many others. Wow, that's amazing! He 
+
