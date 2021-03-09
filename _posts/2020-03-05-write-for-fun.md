@@ -12,7 +12,7 @@ https://writingexercises.co.uk/subjectgenerator.php
 
 
 
-Topic for 6/3/2021: If you could pass a law right now, what would it be, and why?
+**Topic for 6/3/2021: If you could pass a law right now, what would it be, and why?**
 
 *******************************
 
@@ -22,7 +22,7 @@ So, suppose a new law to prevent this situation: capital punishment for the peop
 
 
 
-Topic for 7/3/2021: What does getting old mean to you?
+**Topic for 7/3/2021: What does getting old mean to you?**
 
 *******************************
 
@@ -32,7 +32,7 @@ With me, getting old means I have less time to be together with my family, my li
 
 
 
-Topic for 9/3/2021: Write about someone you used to love.
+**Topic for 9/3/2021: Write about someone you used to love.**
 
 *******************************
 
