@@ -40,18 +40,20 @@ Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliq
 
 ### EXPERIENCE
 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
+Intern - **Vietnam Stem Cell Institute** <span style="float: right; ">6/2021 - Current</span>  
+Laboratory of Stem cell Research and Application
 
 ....
 
 
 ### RECOGNITION & INTERESTS
 
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
+- Second and third prizes in National excellent student contest in Biology (2018, 2019).
+- Gold medal in 30/4 Olympic for southern region (2017).
+- Silver and Bronze medal in Olympic for nothern region (2017, 2018).
+- First place in Province excellent student contest in Biology (2018, 2019).
+- Rank 1st in high school (2019).
+- Qualification in Stem Cell Innovation Contest (2020).
+- Qualification in "Mam Xanh" Contest (2020).
+- Member of technical team in volunteer club of faculty (2020).
+- 
