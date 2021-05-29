@@ -11,8 +11,10 @@ subtitle: HNVT
 
 - Read, analyse and summarize **scientific papers**.
 - Working with **word**, **powerpoint**, **excel**, **google docs**...
-- Using **Zotero** for writing and collecting essays.
-- Working in biology lab with **practical skills**.
+- Using **Zotero** for writing essays.
+- Working in biology lab.
+- R project (beginner).
+- Manage my timeline.
 
 ### PROJECTS
 **Title** - Description - Place <span style="float: right; ">Time span</span>  
@@ -56,4 +58,5 @@ Laboratory of Stem cell Research and Application
 - Qualification in Stem Cell Innovation Contest (2020).
 - Qualification in "Mam Xanh" Contest (2020).
 - Member of technical team in volunteer club of faculty (2020).
-- 
+- Certificate in Crash Course in Python from Coursera (2021).
+- Certificate in Creative Problem Solving from Coursera (2021).
