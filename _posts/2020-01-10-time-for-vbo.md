@@ -10,9 +10,18 @@ For a long time since I was in a VBO team, trained for many biology competitions
 
 *******************************
 
-One day in October, his class had the first training for the Flash-mod competition of my highschool. Not too much enthused about what was going on, he was thinking, think about the last-week-selection-team-for-VBO exam. If he failed, maybe he would stop to follow many other competitions, and was back to a normal student, must to work really hard for the entrance exam to the university. That was not what he wants, but some kinds of that awful mind appear in his head, and he was already enough his nerve preparation to face with that. Some books in chemistry or maths showed us to know that.
+One day in October, his class had the first training for the Flash-mod competition of my high school. Not too much enthused about what was going on, he was thinking, think about the last-week-selection-team-for-VBO exam. If he failed, maybe he would stop to follow many other competitions, and was back to a normal student, must to work really hard for the entrance exam to the university. That was not what he wants, but some kinds of that awful mind appear in his head, and he was already enough his nerve preparation to face with that. Some books in chemistry or math showed us to know that.
 
 Rest time. A phone call. What???
 
-He did it, just only him get into national team, with highest mark, above too many others. Wow, that's amazing! He 
+He did it, just only him of his class can get into national team, with highest mark, above too many others. Wow, that's amazing! 
 
+He was thinking, whether he should stop dancing to pay attention to the contest. He bored with repeated dance which he didn't want to do. And after the relaxing, he gave up, although he knew that without him, his dance partner cannot keep going anymore. Ah -.- so selfish!
+
+No longer. From far, his biology teacher, Thuan, he came and announced for the result which I had got about a half hour ago for the class. Everyone all surpized and give him congratulations. His head nearly blow if It didn't have the wind flow over to come down him. Now, he talked to himself he have to work hard to give the proud for the teachers.
+
+*******************************
+
+He got into the room, saw the teacher was already sitting next to the board. 
+
+ 
