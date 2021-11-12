@@ -6,6 +6,10 @@ date:   2020-01-10 21:21:21 +0530
 categories: ["writing"]
 ---
 
+
+
+UPDATE: actually I failed to this challenge cuz I did not pay my attention to this. Now I will reset this challenge again and share it every day on my Twitter account. 
+
 Well, today I think I should build my habit on writing to train my English using ability. The thing I must take an attention is an interesting topic which can enthusiast me to write. And I found this amazing website, its advanced on creating topics and many other tools.
 
 https://writingexercises.co.uk/subjectgenerator.php
@@ -44,4 +48,9 @@ Whatever, she brought the best things ever for me at that time and I appreciate 
 
 “Sorry, love you and thank you so much.”
 
+**Topic for 14/9/2021: Write about a time when you were really brave..**
+
+*******************************
+
+Well, It actually hard for me to remember the last time I feel brave. 
 
