@@ -3,7 +3,7 @@ layout: page
 title:  "Guide to find a book or an article"
 subtitle: "So, you need an article or book? Sci-Hub and/or Library Genesis probably have you covered!"
 date:   2021-11-11 21:21:21 +0530
-categories: ["tips]
+categories: ["tips"]
 ---
 
 This guide, styled in the same way as the [Guide to Finding Films](https://bit.ly/Film-Guide), is designed to help locate articles and books. Thanks to [Avery Mensch](https://www.facebook.com/amg.mensch) for letting me use their valuable work, including the graphic above.
