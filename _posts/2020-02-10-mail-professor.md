@@ -3,7 +3,7 @@ layout: page
 title:  "How to Email a Research Professor"
 subtitle: "From University of California."
 date:   2021-06-11 21:21:21 +0530
-categories: ["skill"]
+categories: ["tips"]
 ---
 
 *************************************************
