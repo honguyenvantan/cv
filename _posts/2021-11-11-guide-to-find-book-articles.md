@@ -36,7 +36,7 @@ This guide, styled in the same way as the [Guide to Finding Films](https://bit.l
 
  
 
-# 2.[Guide to find and article](sci-hub.se)
+# 2. [Guide to find and article](sci-hub.se)
 
 1. Locate the DOI (Digital Object     Identifier) of the article if possible (not all articles have DOI’s). The     URL of the article on the publisher’s website will suffice if the DOI does     not exist.
 2. Plug the DOI/URL into Sci-Hub     or simply append the DOI to the URL (i.e., sci-hub.se/DOI).
