@@ -11,10 +11,8 @@ subtitle: HNVT
 
 - Read, analyse and summarize **scientific papers**.
 - Working with **word**, **powerpoint**, **excel**, **google docs**...
-- Using **Zotero** for writing essays.
-- Working in biology lab.
 - R project (beginner).
-- Manage my timeline.
+- Scientific skill
 
 ### PROJECTS
 **Title** - Description - Place <span style="float: right; ">Time span</span>  
